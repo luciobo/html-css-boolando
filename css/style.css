@@ -14,7 +14,7 @@ header {
 
 /* -------------------------  dimensionamento immagine */
 .img-size {
-    width: 200px;
+    width: 180px;
 }
 
 /* -------------------------- conteiner principale */
@@ -42,7 +42,8 @@ li {
 .nav-align {
     display: flex;
     justify-content: space-between;
-    padding: 6px;
+    padding: 8px 0px;
+    font-size: 14px;
 }
 
 .nav-sx {
