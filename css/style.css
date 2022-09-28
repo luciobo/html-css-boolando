@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: orangered;
+}
+
+/* -------------------------  dimensionamento immagine */
+.img-size {
+    width: 200px;
+}
+
+/* -------------------------- conteiner principale */
+.conteiner {
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* -------------------------- classi barra nav */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ol {
+    display: flex;
+    gap: 6px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-align {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.nav-sx {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: left;
+    align-self: center;
+}
+
+.nav-centro {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.nav-dx {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: right;
+    align-self: center;
+    gap: 4px;
+    color: white;
+}
