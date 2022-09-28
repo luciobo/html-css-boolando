@@ -100,6 +100,8 @@ img {
     flex-wrap: wrap;
     flex-grow: 1;
     position: relative;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -151,4 +153,14 @@ img {
     position: absolute;
     top: 370px;
     left: 50px;
+}
+
+/* foto hover */
+
+.foto-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    
 }
