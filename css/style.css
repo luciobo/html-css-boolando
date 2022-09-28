@@ -25,6 +25,18 @@ header {
 
 /* -------------------------- classi barra nav */
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+main {
+    padding-top: 80px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -38,6 +50,7 @@ ol {
 li {
     list-style: none;
 }
+
 
 .nav-align {
     display: flex;
@@ -86,6 +99,7 @@ img {
     width: 30%;
     flex-wrap: wrap;
     flex-grow: 1;
+    position: relative;
 }
 
 
@@ -104,4 +118,37 @@ img {
 
 .text-dim {
     font-size: 10px;
+}
+
+/* -----------------------  sconto hover */
+
+.dicoun-conteiner {
+    padding: 4px;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 0;
+}
+
+.hearts-conteiner {
+    padding: 8px;
+    background-color: white;
+    font-size: 16px;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.sost-conteiner {
+    padding: 7px;
+    background-color: green;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 50px;
 }
