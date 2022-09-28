@@ -32,7 +32,7 @@ a {
 
 ol {
     display: flex;
-    gap: 6px;
+    gap: 8px;
 }
 
 li {
@@ -63,6 +63,9 @@ li {
     flex-basis: 40%;
     justify-content: right;
     align-self: center;
-    gap: 4px;
+    gap: 8px;
     color: white;
 }
+
+/* ----------------------- classi card */
+
