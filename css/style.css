@@ -130,7 +130,7 @@ img {
     font-size: 12px;
     color: white;
     position: absolute;
-    top: 370px;
+    top: 75%;
     left: 0;
 }
 
@@ -140,9 +140,14 @@ img {
     font-size: 16px;
     color: red;
     position: absolute;
-    top: 10px;
+    top: 3%;
     right: 0px;
 }
+
+.hearts-conteiner:hover {
+    background-color: green;
+}
+
 
 .sost-conteiner {
     padding: 7px;
@@ -151,16 +156,26 @@ img {
     font-weight: bold;
     color: white;
     position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+.sost-conteiner-2 {
+    padding: 7px;
+    background-color: green;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
     top: 370px;
-    left: 50px;
+    left: 0%;
 }
 
 /* foto hover */
 
-.foto-hover {
-    position: absolute;
+.img-hover {
+    visibility: hidden;
     top: 0;
     right: 0;
     left: 0;
-    
 }
