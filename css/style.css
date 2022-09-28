@@ -69,3 +69,17 @@ li {
 
 /* ----------------------- classi card */
 
+img {
+    width: 100%;
+}
+
+.card-conteiner {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+}
