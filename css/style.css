@@ -75,6 +75,9 @@ img {
 
 .card-conteiner {
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    gap: 10px;
 }
 
 .card {
@@ -82,4 +85,23 @@ img {
     align-items: center;
     width: 30%;
     flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+/* ----------------------  colori prezzo e dimensione testo */
+
+.color-red {
+    color: red;
+    font-size: 12px;
+}
+
+.color-geysbarr {
+    color: lightgray;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.text-dim {
+    font-size: 10px;
 }
